@@ -21,7 +21,7 @@ def decrypt_password(encrypted_password):
     return fakestr(decrypted)
 
 def get_decrypted_password():
-    encrypted_password = b'gAAAAABpskitlexDXr_bxMPC8q7sU-AJuk1nBj8ut0WhyPHG0OIMlOi7069b0xCXXxFknghb-L6gT6v3TYB9_8h4RKBo4GkUiw=='  # ← இப்போ blank வை, பிறகு fill பண்ணுவோம்
+    encrypted_password = b'gAAAAABpskitlexDXr_bxMPC8q7sU-AJuk1nBj8ut0WhyPHG0OIMlOi7069b0xCXXxFknghb-L6gT6v3TYB9_8h4RKBo4GkUiw=='
     return decrypt_password(encrypted_password)
 
 if __name__ == "__main__":
